@@ -1,0 +1,13 @@
+# Claude Code local settings
+.claude/
+
+# 自动生成的 ctx 文件不提交（每个人本地生成）
+**/.ai/ctx/02_current.md
+**/.ai/ctx/03_next.md
+
+# macOS
+.DS_Store
+
+# VHS recording script (internal use)
+demo.tape
+*.tape
