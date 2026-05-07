@@ -148,6 +148,20 @@ your-project/
 
 ---
 
+## Native integration in Warp
+
+A Rust port of aiflow's core logic has been proposed as a built-in
+feature for [Warp Terminal](https://www.warp.dev) — see
+[warpdotdev/warp#10344](https://github.com/warpdotdev/warp/pull/10344)
+(tracking issue: [#10342](https://github.com/warpdotdev/warp/issues/10342)).
+
+If merged, Warp will read `.ai/progress.md` directly and inject the
+current task + minimal context into every AI Agent / Warp AI session
+opened in the project — same behaviour as `ai_inject`, no shell scripts
+required.
+
+---
+
 ## Supported platforms
 
 - macOS (zsh / bash)
